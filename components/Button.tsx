@@ -53,7 +53,10 @@ export function Button({
   }
 
   return (
-    <button className={classes} {...(props as ComponentPropsWithoutRef<"button">)}>
+    <button
+      className={classes}
+      {...(props as ComponentPropsWithoutRef<"button">)}
+    >
       {children}
     </button>
   );
